@@ -1,0 +1,10 @@
+#! /usr/local/bin/gnuplot -persist
+#set terminal postscript eps enhanced color solid
+#set output "Signal.ps"
+set datafile separator ';'
+set xlabel "Time"
+set style line 1 \
+    linecolor rgb '#0060ad' \
+    linetype 1 linewidth 2 \
+    pointtype 7 pointsize 0.8
+plot "out/signal_spectrum.csv" every ::2 using 1:2 with linespoints linestyle 1 title "data"
