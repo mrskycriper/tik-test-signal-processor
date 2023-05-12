@@ -12,4 +12,4 @@ link_libraries(PkgConfig::FFTW)
 
 add_executable(tik-signal-processor
         main.cpp
-        main.hpp signal-processor.hpp settings.cpp settings.hpp file_io.cpp file_io.hpp)
+        main.hpp signal-processor.hpp settings.cpp settings.hpp file_io.cpp file_io.hpp signal-processor.cpp)

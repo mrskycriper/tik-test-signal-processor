@@ -12,5 +12,4 @@ set style line 2 \
     linecolor rgb '#ff1919' \
     linetype 1 linewidth 2 \
     pointtype 7 pointsize 0
-plot "/Users/sergej/Documents/ITMO/Semester 8/Диплом/tik-signal-generator/out/test_signal.csv" every ::2 using 1:2 with linespoints linestyle 1 title "signal", \
-"out/signal_envelope.csv" every ::2 using 1:2 with linespoints linestyle 2 title "envelope"
+plot "out/signal_spectrum.csv" every ::2 using 1:2 with linespoints linestyle 1 title "spectrum"

@@ -1,3 +1,4 @@
+#pragma once
 #ifndef TIK_SIGNAL_PROCESSOR_FILE_IO_HPP
 #define TIK_SIGNAL_PROCESSOR_FILE_IO_HPP
 
